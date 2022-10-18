@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, EventEmitter, Output } from "@angular/core";
 
 @Component({
   selector: 'app-header',
@@ -6,5 +6,10 @@ import { Component } from "@angular/core";
 })
 
 export class HeaderComponent {
+  @Output() pathChanged = new EventEmitter<string>();
+
+  onSelect(path: string) {
+    this.pathChanged.emit(path);
+  }
 
 }
