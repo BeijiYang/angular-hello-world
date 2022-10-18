@@ -9,7 +9,7 @@ import { Recipe } from '../recipe.model';
 
 export class RecipeListComponent implements OnInit {
   recipes: Array<Recipe> = [
-    new Recipe('A Test Recipe', 'This is a test recipe', 'https://img0.baidu.com/it/u=2500107091,3723826537&fm=253&fmt=auto&app=138&f=PNG?w=586&h=500'),
+    new Recipe('A Test Recipe', 'This is a test recipe', 'https://img2.baidu.com/it/u=900444370,3315059522&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=800'),
     new Recipe('A Test Recipe', 'This is also a test recipe', 'https://img2.baidu.com/it/u=900444370,3315059522&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=800')
 
   ]
