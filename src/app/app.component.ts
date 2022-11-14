@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'second-angular-app';
   currentPath: string;
 
-  onPathChanged(path: string) {
-    this.currentPath = path;
-  }
+  // onPathChanged(path: string) {
+  //   this.currentPath = path;
+  // }
 }
