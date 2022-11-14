@@ -6,10 +6,10 @@ import { Component, EventEmitter, Output } from "@angular/core";
 })
 
 export class HeaderComponent {
-  @Output() pathChanged = new EventEmitter<string>();
+  // @Output() pathChanged = new EventEmitter<string>();
 
-  onSelect(path: string) {
-    this.pathChanged.emit(path);
-  }
+  // onSelect(path: string) {
+  //   this.pathChanged.emit(path);
+  // }
 
 }
