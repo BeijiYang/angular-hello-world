@@ -2,8 +2,9 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <app-recipe *ngIf="!currentPath || currentPath === 'recipes'"></app-recipe>
-      <app-shopping-list *ngIf="currentPath === 'shopping-list'"></app-shopping-list>
+      <router-outlet></router-outlet>
+      <!-- <app-recipe *ngIf="!currentPath || currentPath === 'recipes'"></app-recipe>
+      <app-shopping-list *ngIf="currentPath === 'shopping-list'"></app-shopping-list> -->
     </div>
   </div>
 </div>
